@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(229, 57%, 11%);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.box1 {
+    height: 150px;
+    width: 229px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 4px;
+    border-top-right-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    box-shadow: 2px 7px 50px rgba(0, 0, 0, 0.336);
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    height: 114px;
+    width: 400px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 4px;
+    position: absolute;
+    top: 45.1%;
+    left: 48%;
+    box-shadow: 2px 7px 50px rgba(0, 0, 0, 0.336);
+    font-family: "Raleway";
+    font-weight: 400;
+    color: hsl(243, 100%, 93%);
+    ;
+}
+
+.conteudo {
+    padding-inline-start: 40px;
+    position: relative;
+    top: 20%;
+}
+
+progress{
+    background-color: hsl(228, 56%, 26%);
+    width: 335px;
+    height: 12px;
+    border: 1px solid hsl(229, 57%, 11%);
+    border-radius: 5px;
+}
+
+.custom-progress::-webkit-progress-value {
+    background-image: linear-gradient(
+        90deg,
+        hsl(6, 100%, 80%),
+        hsl(335, 100%, 65%)
+    );
+    border-radius: 5px;
+}
+
+.custom-progress::-webkit-progress-bar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+}
+
+.gb {
+    margin-top: 5px;
+}
+
+.mil {
+    position: absolute;
+    left: 80%;
+}
+
+.img {
+    height: 343px;
+    width: 100%;
+}
+
+.balao {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(229, 57%, 11%);
+
+}
+
+#balao {
+    background-color: hsl(243, 100%, 93%);
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left: 65%;
+    top: -100%;
+    color: hsl(229, 7%, 55%);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.icon {
+    padding: 20px;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon1, .icon2, .icon3 {
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.logo {
+    padding: 20px;
+}
